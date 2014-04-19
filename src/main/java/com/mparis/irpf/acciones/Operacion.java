@@ -1,8 +1,13 @@
 package com.mparis.irpf.acciones;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Operacion {
+
+	public static final DateFormat TIME_FORMAT = new SimpleDateFormat(
+			"MM/dd/yyyy");
 
 	/* @formatter:off */
 	public enum Tipo {
